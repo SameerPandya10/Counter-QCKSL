@@ -1,0 +1,47 @@
+.counter-box {
+  display: flex;
+  justify-content: stretch;
+  border: solid;
+  width: 90%;
+  border-color: brown;
+  border-width: 3px;
+  border-radius: 20px;
+  height: 98px;
+}
+
+.counter-elements {
+  width: 33%;
+  border-width: 0;
+  font-size: 3rem;
+  border-color: #a52a2a;
+  font-weight: bold;
+}
+
+.inc {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-width: 0 0 0 3px;
+  color: white;
+  background-color: brown;
+}
+
+.inp {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 3.3rem;
+  color: brown;
+  background-color: rgb(246, 213, 213);
+}
+
+.dec {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-width: 0 3px 0 0;
+  border-color: rgb(245, 65, 65);
+  color: brown;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}

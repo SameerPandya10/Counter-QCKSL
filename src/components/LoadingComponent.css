@@ -1,0 +1,10 @@
+.loader {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.load-icon {
+  height: 40px;
+  width: 40px;
+}
